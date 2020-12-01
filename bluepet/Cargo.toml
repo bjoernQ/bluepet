@@ -1,0 +1,23 @@
+[package]
+name = "bluepet"
+version = "0.1.0"
+authors = ["bjoern <bjoern.quentin@mobile-j.de>"]
+edition = "2018"
+
+default-run = "main"
+
+[[bin]]
+name = "main"
+path = "./src/main.rs"
+
+
+[dependencies]
+cortex-m = "0.6.3"
+cortex-m-rt = "0.6.13"
+stm32f1xx-hal = { version = "0.6.1", features = ["rt", "stm32f103", "medium"] }
+embedded-hal = "0.2.4"
+rtt-target =  { version = "0.2.2", features = ["cortex-m"] }
+panic-halt = "0.2.0"
+spi-memory = "0.2.0"
+pet = { path = "d:/projects/bluepet/pet" }
+mos6502 = { path = "d:/projects/bluepet/mos6502" }
