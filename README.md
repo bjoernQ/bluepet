@@ -11,7 +11,7 @@ The emulation is probably not perfect and definitely pretty slow. As you can see
 
 Here is a video of it in action: (click to open it on YouTube)
 
-[![BluePet Video](https://i9.ytimg.com/vi_webp/QxffeJKS6hY/mqdefault.webp?time=1606762200000&sqp=CNj9lP4F&rs=AOn4CLA2n8p645eTSmbcg8i8pV0FnCrPVw)](https://youtu.be/QxffeJKS6hY "Video")
+[![Video](http://img.youtube.com/vi/QxffeJKS6hY/0.jpg)](http://www.youtube.com/watch?v=QxffeJKS6hY "Video")
 
 If you want to build the code you have to build it with the release profile - it won't work in debug mode.
 
